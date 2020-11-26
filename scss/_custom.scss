@@ -178,6 +178,59 @@ footer {
   padding-bottom: 20px;
 }
 
+.restaurant-menu {
+  background: $secondary-color;
+  margin-top: 20px;
+  padding: 5px 0 20px;
+
+  h2 {
+    padding-bottom: 10px;
+
+    @media screen and (max-width: 39.99875em) {
+      font-size: 40px;
+      text-align: center;
+    }
+  }
+
+  .menu-2-items {
+    margin-bottom: 10px;
+    @media screen and (max-width: 39.99875em) {
+      margin-bottom: 0;
+    }
+  }
+
+  .menu-item {
+    border: 4px solid $primary-color;
+    padding: 10px;
+
+    @media screen and (max-width: 39.99875em) {
+      margin-bottom: 10px;
+    }
+
+    h5 {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .thumbnail {
+    margin-bottom: 0;
+    max-height: 200px;
+    @media screen and (max-width: 63.99875em) {
+      margin-bottom: 10px;
+    }
+  }
+
+  .price {
+    color: $link-color;
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 63.99875em) {
 }
 
