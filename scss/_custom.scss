@@ -15,11 +15,8 @@ $anchor-color: $link-color;
 $anchor-color-hover: $link-hover-color;
 
 $button-background: $link-color;
-// $button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-background-hover: $link-hover-color;
-$button-color: $white;
-$button-color-alt: $black;
-$button-responsive-expanded: false;
+$button-responsive-expanded: true;
 
 body {
   overflow-x: hidden;
@@ -231,7 +228,8 @@ footer {
   }
 }
 
-.photo-gallery {
+.photo-gallery,
+.contact-us {
   background: $secondary-color;
   margin-top: 20px;
   padding: 5px 0 20px;
